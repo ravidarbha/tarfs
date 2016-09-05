@@ -34,8 +34,8 @@ __FBSDID("$FreeBSD$");
 #include <sys/proc.h>
 #include <sys/vnode.h>
 
-#include <fs/tarfs/tarfs.h>
-#include <fs/tarfs/tarfs_dbg.h>
+#include "tarfs.h"
+#include "tarfs_dbg.h"
 
 static int
 tarfs_open(struct vop_open_args *ap)

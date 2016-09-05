@@ -52,8 +52,8 @@ __FBSDID("$FreeBSD$");
 #include <geom/geom.h>
 #include <geom/geom_vfs.h>
 
-#include <fs/tarfs/tarfs.h>
-#include <fs/tarfs/tarfs_dbg.h>
+#include "tarfs.h"
+#include "tarfs_dbg.h"
 
 struct ustar_header {
 	char	name[100];		/* File name */

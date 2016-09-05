@@ -41,8 +41,8 @@ __FBSDID("$FreeBSD$");
 #include <sys/sysctl.h>
 #include <sys/vnode.h>
 
-#include <fs/tarfs/tarfs.h>
-#include <fs/tarfs/tarfs_dbg.h>
+#include "tarfs.h"
+#include "tarfs_dbg.h"
 
 MALLOC_DEFINE(M_TARFSNAME, "tarfs name", "tarfs file names");
 
